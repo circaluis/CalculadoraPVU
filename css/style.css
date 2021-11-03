@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'lilita_oneregular';
+    src: url('lilitaone-regular-webfont.woff2') format('woff2'),
+         url('lilitaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'lilita_oneregular';
+  background-color: #11131b;
+}
+
+.container {
+  padding-top: 10px;
+  background-color: #353c44;
+  height: 870px;
+  border-radius: 15px;
+  width: 40%;
+  text-align: center;
+  margin: 30px auto;
+}
+
+div {
+  color: #ffffff;
+}
+
+
+
+
+.contenedorValores {
+  box-shadow: 0 0 20px 1px #080a17;
+  height: 400px;
+  margin: 50px auto;
+  display:inline-block;
+  align-items: center;
+  background-color: #1f1d1d;
+  width: 80%;
+  border-radius: 15px;
+  display: flex;
+}
+
+.padre {
+  margin: auto;
+}
+
+H1 {
+  color: #01d6a3;
+  letter-spacing: 0.2em;
+  margin-bottom: 50px;
+}
+.contenedorValores h3 {
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #f3cf5c;
+}
+
+#contenedorValores h3 {
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #c267da;
+}
+
+input#calculo, #valor {
+  padding: .375rem .75rem;
+  border-radius: 5px;
+  background-color: #c0c4ca;
+  width: 180px;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition-duration: 0.15s, 0.15s;
+  transition-timing-function: ease-in-out, ease-in-out;
+  transition-delay: 0s, 0s;
+}
+
+#enviarValor {
+  border-radius: 5px;
+  border-color: #28a745;
+  color: #ffffff;
+  background-color: #28a745;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  width: 130px;
+  font-size: 12px;
+  margin-top: 20px;
+  height: 25px;
+}
+
+.discordContainer{
+  width: 100%;
+  display: inline;
+}
+
+.imgDiscord {
+  opacity: 0.5;
+  margin-top: 30px;
+}
+
+a {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.5;
+  display: inline-block;
+  color: #5662f6;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
